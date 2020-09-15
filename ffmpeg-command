@@ -1,0 +1,15 @@
+# command example to create a TD compatible hapQ file.
+# where 
+#%infile% is the file path to the source image sequence.
+#%outfile% is the file path to the destination file
+
+# image sequence pattern:   %03d -> 001.png for example.
+# ffmpeg -i image-%03d.png video.webm
+
+ffmpeg -n -i "%infolder%%infilename%"  -c:v hap -format hap_q -chunks 4 "%outfolder%%outfilename%"
+
+
+# switches:
+-n ::: do not overwrite
+-vf scale=3840:2160 ::: scalling params
+-c:v hap -format hap_q -chunks 4 :::: hapQ format
