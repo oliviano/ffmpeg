@@ -7,7 +7,6 @@ echo %date% >> log_EncodeManual.txt
 
 REM This sets the date Variable to today
 For /f "tokens=2-4 delims=/ " %%a in ('date /t') do (set myDate=%%a%%b%%c)
-REM SET myDate=05082020
 
 echo Today Date is: %myDate% >> log_EncodeManual.txt
 echo ----------------------------- >> log_EncodeManual.txt
