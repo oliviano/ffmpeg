@@ -16,14 +16,3 @@ Change infolder / outfolder to suit.
 
 example of the command used to make a hapQ file for touchdesigner.
 
-## PRESETS NOTES:
-Preset 6 & 7 differ by the way the rotary encoder display their info ( pan vs dot mode ) and preset 6 use relative encoding whereas preset 7 use absolute encoding.
-
-Preset 10 to 12 differ just by the faders channels, so one can control more than 8 fader in resolume by changing presets on the controller.
-
-
-## THANKS
-Mokita on kvraudio.com for java version tip.
-Danger on resolume.com forums for the inital resolume preset.
-
-
